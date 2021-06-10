@@ -84,7 +84,7 @@ public class teman_adapter extends RecyclerView.Adapter<teman_adapter.TemanViewH
 
                             case R.id.hapus:
                                 AlertDialog.Builder alertdb = new AlertDialog.Builder(view.getContext());
-                                alertdb.setTitle("Yakin nih "+nm+" mau di hapus?");
+                                alertdb.setTitle("Data "+nm+" mau di hapus?");
                                 alertdb.setMessage("Tekan YA untuk menghapus");
                                 alertdb.setCancelable(false);
                                 alertdb.setPositiveButton("ya", new DialogInterface.OnClickListener() {
